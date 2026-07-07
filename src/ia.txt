@@ -1,0 +1,16 @@
+etapa 1 : proyecto base 
+prompt: 
+fue de ayuda:
+que se modifico:
+
+ Etapa 2 — Componente PeliculaCard 
+prompt: 
+Crea src/components/PeliculaCard.jsx.
+El componente recibe por props: título, género, duración, clasificación,
+ sinopsis, horarios.
+Muestra la información de forma visual y ordenada.
+Aplica un estilo diferenciado según
+ la clasificación (un color/etiqueta distinto para TE, +14, +18).
+fue de ayuda:si 
+que se modifico: no se modifico nada ya que es lo que pedi 
+

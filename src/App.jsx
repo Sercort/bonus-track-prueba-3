@@ -1,7 +1,13 @@
 import { peliculas } from './data/peliculas';
+import PeliculaCard from './components/PeliculaCard';
 
 function App() {
-  console.log("Datos cargados:", peliculas);
-  return <h1>CineLista Funciona</h1>;
+  const p = peliculas[0]; // Tomamos la primera película para probar
+  return (
+    <div style={{ padding: '20px' }}>
+      <h1>Cartelera de Cine</h1>
+      <PeliculaCard {...p} />
+    </div>
+  );
 }
 export default App;
