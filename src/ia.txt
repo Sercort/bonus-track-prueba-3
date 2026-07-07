@@ -14,3 +14,9 @@ Aplica un estilo diferenciado según
 fue de ayuda:si 
 que se modifico: no se modifico nada ya que es lo que pedi 
 
+Etapa 3 — Componente ListaPeliculas 
+Crea src/components/ListaPeliculas.jsx.
+Importa el arreglo de películas desde data/peliculas.js.
+Recorre el arreglo con .map() y renderiza un componente PeliculaCard por cada película.
+Asegúrate de pasar las props correctas (título, género, duración, clasificación, sinopsis, horarios).
+Verifica que se muestren todas las películas en pantalla.

@@ -1,12 +1,12 @@
 import { peliculas } from './data/peliculas';
-import PeliculaCard from './components/PeliculaCard';
+import ListaPeliculas from './components/ListaPeliculas';
 
 function App() {
-  const p = peliculas[0]; // Tomamos la primera película para probar
   return (
     <div style={{ padding: '20px' }}>
       <h1>Cartelera de Cine</h1>
-      <PeliculaCard {...p} />
+      {/* Pasamos el arreglo completo al componente de lista */}
+      <ListaPeliculas peliculas={peliculas} />
     </div>
   );
 }
