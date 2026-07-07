@@ -20,3 +20,12 @@ Importa el arreglo de películas desde data/peliculas.js.
 Recorre el arreglo con .map() y renderiza un componente PeliculaCard por cada película.
 Asegúrate de pasar las props correctas (título, género, duración, clasificación, sinopsis, horarios).
 Verifica que se muestren todas las películas en pantalla.
+fue de ayuda: si ya que hubos pocas modificaciones del codigo
+
+Etapa 4 — Componente FiltroClasificacion 
+Crea src/components/FiltroClasificacion.jsx.
+Agrega un <select> con opciones de clasificación: "Todas", "TE", "+14", "+18".
+Usa useState para guardar la clasificación seleccionada.
+Filtra las películas en ListaPeliculas según la clasificación elegida.
+Asegúrate de que el filtro se actualice dinámicamente al cambiar la opción.
+fue de ayuda: si fue de ayuda
