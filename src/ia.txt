@@ -29,3 +29,15 @@ Usa useState para guardar la clasificación seleccionada.
 Filtra las películas en ListaPeliculas según la clasificación elegida.
 Asegúrate de que el filtro se actualice dinámicamente al cambiar la opción.
 fue de ayuda: si fue de ayuda
+
+Etapa 5 — Integración final y pruebas 
+Importa FiltroClasificacion y ListaPeliculas en App.jsx.
+Conecta ambos componentes para que el filtro afecte la lista mostrada.
+Realiza pruebas con distintas clasificaciones y verifica que todo funcione correctamente.
+Ajusta estilos y detalles visuales finales.
+Agrega comentarios en el código explicando la lógica principal.
+
+fue de ayuda: si fue de ayuda pero tuve problema
+ con el repertorio y el commit ya que en la ultima
+  etapa hubieron algunas 
+complicaciones con el repertorio 
